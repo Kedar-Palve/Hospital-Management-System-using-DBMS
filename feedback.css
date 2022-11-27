@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    animation:loading 1s;
+
+}
+
+
+nav{
+
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    height:70px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 4;
+    /* padding-bottom: 8px; */
+
+   
+}
+
+nav span{
+    padding-bottom: 13px;
+}
+
+.hospi_text{
+
+    font-weight: 120;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+.nav_panels{
+
+    display: inline-block;
+    margin: 25px 0px 12px 24px;
+
+    font-weight: 100;
+    font-size: 18px;
+    
+}
+
+#nav_panels1{
+     margin-left:50%;
+}
+
+
+
+.review{
+    position: absolute;
+   
+    height:105vh;
+    width:90%;
+    /* border: 4px solid black; */
+    margin: auto;
+    top:7%;
+    left:2%;
+    /* scale: 0.95; */
+    /* box-sizing: border-box; */
+    /* background-color: rgb(250, 248, 248); */
+    /* background: rgb(249, 247, 247); */
+
+
+}
+
+.review .about{
+    height:20vh;
+    font-size: 14px;
+}
+
+
+
+.review {
+
+    overflow: hidden;
+    /* border: 0.1px solid black; */
+    padding-left:2%;
+    padding-right:2%;
+    scale:0.92;
+   
+}
+
+.review .reviews{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* gap: 5%; */
+    /* overflow:hidden; */
+    /* justify-content: space-around;  */
+    height:84vh;
+    margin-bottom: 25px;
+    transition:2s;
+    /* padding-left: 3%;
+    padding-right: 3%; */
+   
+}
+
+
+
+.dd{
+    margin-right: 4.5%;
+}
+
+.dd{
+    position: relative;
+}
+.review .reviews .dd{
+    width:47%;
+    height:40vh;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: inset 10px 10px 15px  rgba(154, 154, 154, 0.10), 10px 10px 15px rgba(70,70,70,0.12); */
+     /* ,inset -10px -10px 115px white, inset 10px 10px 115px rgba(245,245,245,0.5); */
+     border-radius: 6px;
+     /* margin-left: 44px; */
+     margin-top: 84px;
+     margin-bottom: 44px;
+     box-shadow: 20px 20px 30px #e3e3e3  , -20px -20px 60px #ffffff;
+     box-shadow: 13px 13px 30px #d5d5d7  , -20px -20px 160px #ffffff;
+     box-shadow:rgba(50,50,93,0.25) 0px 2px 5px -1px ,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+     border-left:10px solid white;
+     border-top:  10px solid white;
+     letter-spacing: 2px;
+     /* border:2px solid black */
+     /* background-color:  rgb(251, 251, 251); */
+     
+}
+
+.review .reviews .dd:hover{
+    /* box-shadow: inset 3px 3px 8px #e8e8e8 , inset -3px -3px 8px #e9e8e8 ,
+   13px 13px 30px #d4d3d3  ,-14px -14px 25px #ffffff; */
+   /* scaleX:1.05; */
+   transform: scale(1.05);
+   /* transform: scaleY(1.25); */
+   border: none;
+}
+
+.review .reviews .dd .name{
+
+    margin-right: 444px;
+}
+
+.review .reviews .dd span{
+    color:rgb(255, 52, 52);
+    font-size: 20px;
+}
+
+.review .reviews .dd p{
+    padding: 2px 2px;
+    text-align: justify;
+}
+
+.reviews i , .dipak{
+    font-size: 67px;
+    position: absolute;
+    left:44%;
+    top:-20%;
+    z-index: 3;
+
+    
+    
+    
+}
+
+.dd{
+    text-align:start;
+}
+
+.fa-circle-chevron-right2 {
+
+    position: absolute;
+    font-size: 44px;
+    right:2%;
+    top:61%
+    /* color:black; */
+    
+}
+
+.fa-circle-chevron-left2 {
+
+    position: absolute;
+    font-size: 44px;
+    top:61%;
+    left:2%;
+}
+
+.arrow:hover{
+    
+    color:rgb(255, 52, 52);
+
+}
+
+
+.arrow:active{
+
+    scale: 0.95;
+    
+    color:rgb(255, 52, 52);
+
+}
+
+nav i{
+
+    position: absolute;
+    font-size:32px;
+    right:42px;
+    
+}
+
+.logo{
+    position: absolute;
+    left:1%;
+    right:auto;
+    top:16%;
+    font-size: 44px;
+    color:rgb(255, 52, 52);
+}
+
+
+
+.time{
+    margin-left: -12%;
+    /* background-color: #d4d3d3; */
+}
+
+.dd button{
+
+    position: absolute;
+    top:76%;
+    left:1%;
+    
+    height: 45px;
+    width:96%;
+    /* background:linear-gradient(to right ,#ff67c5 , #ffa7ba); */
+    background-color: rgb(255, 52, 52);
+    /* background-color: #00FF00; */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3),-1px -1px 2px rgba(0,0,0,0.3);
+    font-size:20px;
+    transition: all 1s;
+
+}
+
+

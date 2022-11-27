@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+   padding: 0%;
+}
+
+body{
+   width: 100%;
+}
+
+header{
+   width:100%;
+}
+
+nav{
+
+   background-color: rgb(255, 255, 255);
+   opacity:0.9;
+
+   height: 82px;
+   width: 100%;
+
+}
+
+
+#running_tag{
+   
+   border:solid;
+   background-color:white ;
+   color: black;
+   margin-left:145px;
+   width:565px;
+   height:45px;
+   border-width: 1px;
+   text-shadow: 444px 434px ;
+   
+   padding-top:24px;
+   text-align: center;
+
+   margin-bottom:32px;
+}
+
+#home_back_image{
+
+   
+       width:85px;
+       height:75px;
+   
+       margin-top:3px;
+       margin-left:37px;
+       margin-bottom:27px;
+   
+}
+
+#running_tag:hover{
+   background-color: black;
+   color: white;
+}
+
+
+#span_a:hover{
+   background-color: black;
+   color:white;
+   
+}
+
+body{
+
+   
+   background-image: url("images/display.jpg");
+   background-attachment:fixed;
+ 
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+     z-index: -1px;
+   background-size:cover;
+
+}
+
+
+
+
+.same{
+   
+   margin-left:329px;
+   margin-top: 92px;
+}
+
+#running_tagg{
+   
+   border:solid;
+   background-color:white ;
+   color: black;
+   
+   width:598px;
+   height:45.0px;
+   border-width: 1px;
+   
+   padding-left: 6px;
+   font-size: 19.8px;
+    
+   margin-bottom:216px;
+   border-radius: 2px;
+  
+   margin-right:16px;
+}
+
+
+
+#button{
+   width:25%;
+   height:6.1vh;
+   margin-right:35px;
+   margin-left:0px;
+   
+   font-size:16px;
+   color:black;
+}
+
+
+#button:hover{  
+   background-color:black;
+   color:white;
+   border-radius: 2px;
+   /* font-size: 18px; */
+}
+#button:active{ 
+   font-size: 13px;
+   background-color:#B3E8FF;
+   border-radius: 2px;
+   transition: 0.5s;
+   
+} 
+
+.main{
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:16.8%;
+    background-color:whitesmoke;
+    opacity: 0.9;
+}
+
+table{
+    width:100%;
+   
+    height:100%;
+    background-color:rgb(255, 255, 255);
+   
+    
+}
+
+.t_head{
+    background-color:black;
+    color:white;  
+   
+     margin:0% 19% 3% 0%;
+    margin-left:1%;
+    height:11vh; 
+   font-size:20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+.srno1{
+
+   height:48px;
+   font-size: 21px;
+   border-bottom:2px solid  rgb(224, 225, 227);
+   width:8.70%;
+   text-align: center;
+
+   color: red;
+   
+}
+
+.name1{
+
+   height:48px;
+   font-size: 21px;
+   border-bottom:2px solid  rgb(224, 225, 227);
+   width:64.05%;
+   text-align: center;
+   
+}
+
+.action1{
+
+   height:48px;
+   
+   border-bottom:2px solid rgb(224, 225, 227);
+   width:70.6%;
+
+   padding-left: 29px;
+
+   
+   
+}
+
+.action2{
+   margin:6px 13px 6px 13px;
+   width: 110px;
+   height:7vh;
+   font-size: 16px;
+   
+}
+
+
+.deleted{
+   background-color: red;
+   border-color: red;
+    /* #ff9ab7; */
+   color: white;
+   border-radius: 2px;
+   box-shadow: 5px 5px 10px rgba(27, 27, 27,0.5);
+   box-shadow: 5px 5px 5px rgb(171, 171, 171);
+}
+
+.updated{
+   background-color: #00FF00;
+   border-color:  #00FF00;
+   color: white;
+   border-radius: 2px;
+   box-shadow: 5px 5px 10px rgba(27, 27, 27,0.5);
+   box-shadow: 5px 5px 5px rgb(171, 171, 171);
+
+}
+   
+
+
+.deleted:hover{  
+   background-color:black;
+   color:white;
+   border-radius: 4px;
+   /* font-size: 18px; */
+   transition: 0.5s;
+}
+
+.deleted:active{ 
+   font-size: 14px;
+   background-color:#B3E8FF;
+   border-radius: 4px;
+   transition: 0.5s;
+   
+} 
+
+.updated:hover{  
+   background-color:black;
+   color:white;
+   border-radius: 4px;
+   /* font-size: 18px; */
+   transition: 0.5s;
+}
+.updated:active{ 
+   font-size: 14px;
+   background-color:#B3E8FF;
+   border-radius: 4px;
+   transition: 0.5s;
+   
+} 
+
+
+
+.row:hover{
+   background-color:rgb(255, 216, 216);;
+   color:black;
+
+}
+
+
+.row{
+
+   width : 100px
+   
+
+}
+.input_tag{
+
+   border: none;
+
+   background-color:white;
+
+   width: 100%;
+   text-align: center;
+   height:5vh;
+   font-size: 1.4rem;
+
+}
+
+
+.row1{
+   border-color: white;
+   
+}
+
+.flex_box{
+
+   display: flex;
+   flex-direction: row;
+   background-color: black;
+
+}
